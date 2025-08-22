@@ -25,21 +25,20 @@ input:focus, textarea:focus {
   padding: 8px 14px;
   border-radius: 8px;
   border: 1px solid var(--card-border);
-  background: #e2e8f0;
+  border: 1px solid black;
   color: var(--accent-strong);
   font-weight: 500;
   transition: all 0.2s;
 }
 .btn:hover {
   background: var(--accent-strong);
-  color: #fff;
   border-color: var(--accent-strong);
+  cursor: pointer;
 }
 
 .btn.primary {
   background: var(--accent-strong);
   border-color: var(--accent-strong);
-  color: #fff;
 }
 
 .display p { margin: 6px 0; }

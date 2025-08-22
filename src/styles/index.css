@@ -13,6 +13,7 @@ body {
   --muted: #64748b;         /* texto secundário */
   --accent: #2563eb;        /* azul vibrante */
   --accent-strong: #1d4ed8; /* azul mais forte */
+  --button-color: rgb(7, 7, 7);
 }
 
 button { cursor: pointer; }
