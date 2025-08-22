@@ -1,0 +1,19 @@
+/* Reset/normalização leve */
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; font-family: 'Inter', 'Segoe UI', Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; }
+body {
+  background: #f4f6f8; /* tom claro neutro */
+  color: #1e293b;      /* azul escuro suave */
+}
+
+/* Paleta de cores customizada */
+:root {
+  --card-bg: #ffffff;       /* branco para cards */
+  --card-border: #d1d5db;   /* cinza claro para bordas */
+  --muted: #64748b;         /* texto secundário */
+  --accent: #2563eb;        /* azul vibrante */
+  --accent-strong: #1d4ed8; /* azul mais forte */
+}
+
+button { cursor: pointer; }
+input, textarea { color: #1e293b; font-family: inherit; }
